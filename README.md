@@ -1,3 +1,7 @@
+Modified to work with: https://gist.github.com/mikumi/e104a82f90fba453b978
+
+---
+
 # arve0/timemachine
 Netatalk running in docker for time machine backups.
 
