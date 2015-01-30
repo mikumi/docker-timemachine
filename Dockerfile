@@ -23,11 +23,11 @@ RUN \
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # add user
-RUN useradd --home /backup -m timemachine
-RUN echo timemachine:timemachine | chpasswd 
+RUN useradd --home /home/webrtc -m webrtc
+RUN echo webrtc:webrtc | chpasswd 
 
 # time machine volume
-VOLUME /backup
+VOLUME /webrtc
 
 # port
 EXPOSE 548
